@@ -1,0 +1,13 @@
+.textureTitle {
+  display: flex;
+  flex-direction: row;
+}
+
+.deleteTexture {
+  color: rgb(155, 61, 61);
+
+  display: none;
+}
+.textureTitle:hover .deleteTexture {
+  display: block;
+}

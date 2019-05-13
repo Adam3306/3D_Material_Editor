@@ -1,0 +1,105 @@
+.App {
+  /* text-align: center; */
+  width: 100% !important;
+  height: 100% !important;
+  display: flex;
+  flex-direction: row;
+}
+
+.meshSelect {
+
+}
+
+.meshSelectStyle {
+  font-family: helvetica;
+  font-size: 30pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.meshSelectDropDownStyle {
+  font-family: helvetica;
+  font-size: 12pt;
+  width: 720px;
+  height: 50px;
+}
+
+.uploadModelStyle {
+
+}
+
+.colorPickerContainer {
+  padding: 10px;
+}
+
+.editorContainer {
+  width: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.materialSelector {
+  border-color: darkgray;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  border-spacing: 15px 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 263px;
+}
+
+.mSmPStyle {
+  /* padding: 10px; */
+  margin-top: 10px;
+  display: flex !important;
+  flex-Direction: row !important;
+  
+}
+
+
+.selectSelectedStyle {
+  font-family: helvetica;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.materialPropertiesStyle {
+  font-size: 12pt;
+  font-weight: bold;
+  margin-right: 15px;;
+}
+
+.Colors {
+  font-family: helvetica;
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.objmaterialspecStyle {
+  font-family: helvetica;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+}
+
+.deleteMat {
+  color: rgb(155, 61, 61);
+  display: none;
+}
+.title:hover .deleteMat {
+  display: block;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
